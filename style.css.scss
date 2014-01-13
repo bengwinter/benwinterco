@@ -69,7 +69,6 @@ h2 {
 
 .project-description {
   margin: 5px 5px 5px 15px;
-
 }
 
 .project-list-header {
@@ -95,8 +94,15 @@ h2 {
 #contact-list {
   list-style-type: none;
   padding-left: 0px;
-  li {
-    text-decoration: none;
+}
 
-  }
+.contact-list-link {
+  color: rgba(37, 69, 138, 1.0);  
+  text-decoration: none;
+}
+
+.contact-list-link:visited {
+  text-decoration: none;
+  color: rgba(87, 10, 22, 1.0);
+
 }
